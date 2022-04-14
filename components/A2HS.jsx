@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import Image from "next/image";
+// import Image from "next/image";
 
 const featuredProducts = [
   "https://i.ibb.co/yhw3gtQ/1080.png",
@@ -48,7 +48,7 @@ export default function A2HS() {
   return (
     <div ref={slideRef} className="relative select-none">
       <div className="mx-auto">
-        <Image
+        <img
           src={featuredProducts[currentIndex]}
           alt=""
           width={500}

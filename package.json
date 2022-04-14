@@ -10,9 +10,11 @@
 	},
 	"dependencies": {
 		"next": "12.1.5",
+		"next-images": "^1.8.4",
 		"next-pwa": "^5.4.0",
 		"react": "18.0.0",
-		"react-dom": "18.0.0"
+		"react-dom": "18.0.0",
+		"react-pwa-to-homescreen": "^1.1.0"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.4.4",
